@@ -2,21 +2,21 @@
 using namespace std;
 class animal {
 	private:
-		char name[20]="LEO";
+		char name[20]="Leo";
 		int leo_age = 9;
 	public:
 	void set_value(){
 		cout<<"Parent class ANIMAL==>"<<endl;
-        cout<<"This is LION with name: "<<name<<" and age of: "<<leo_age<<endl;
+        cout<<"Hello this is LION with name: "<<name<<" and age of: "<<leo_age<<endl;
 	}
 };
 class Zebra :public animal{
 	public:
-	char zeb_name[20] = "Whitey zebra";
+	char zeb_name[20] = "Whitey";
 	int zeb_age = 5;
 		void set_value(){
 		cout<<"Child class ZEBRA==>"<<endl;
-		cout<<"Hello this is zebra, with name of:"<<zeb_name<<"and age of:"<<zeb_age<<endl;
+		cout<<"Hello this is ZEBRA, with name: "<<zeb_name<<" and age of: "<<zeb_age<<endl;
 	}
 };
 class Dolphin :public animal{
@@ -25,7 +25,7 @@ class Dolphin :public animal{
         int dol_age = 7;
 	void set_value(){
 		cout<<"Child class DOLPHIN==>"<<endl;
-		cout<<"Hello this is Dolphin, with name: "<<dol_name<<"and age of:"<<dol_age<<endl;
+		cout<<"Hello this is Dolphin, with name: "<<dol_name<<" and age of: "<<dol_age<<endl;
     }
 };
 int main(){
