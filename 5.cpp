@@ -4,7 +4,7 @@ class A{
 public:
 int emp_id;
 char emp_name[40];
-char emp_role  [40];
+char emp_role[40];
 int  emp_salary ;
 int  emp_exp ;
 char emp_comp_name[40];
